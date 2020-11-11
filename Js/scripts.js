@@ -17,7 +17,7 @@ $(document).ready(function() {
     });
   });
   $(document).ready(function() {
-    $("p").click(function() {
+    $(".clickable").click(function() {
       $(".walnar-showing").toggle();
       $(".walnar-hidden").toggle();
     });
