@@ -11,3 +11,8 @@ $(document).ready(function() {
       alert("This is an image.");
     });
   });
+  $(document).ready(function() {
+    $("p").click(function() {
+      $(".Walnar-showing").show();
+    });
+  });
