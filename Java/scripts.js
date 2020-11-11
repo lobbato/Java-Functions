@@ -1,21 +1,15 @@
 function add(number1, number2) {
     return number1 + number2;
-  }
+}
+jQuery("h1").click(function() {
+    alert("This is a header.");
+    alert("I told you, THIS IS A HEADER!");
+   });
   
-  const number1 = parseInt(prompt("Enter a number:"));
-  const number2 = parseInt(prompt("Enter another number:"));
-  const result = add(number1, number2);
-  alert(result);
-function saySomething(whatToSay) {
-    alert(whatToSay);
-  }
+  jQuery("p").click(function() {
+    alert("This is a paragraph.");
+  });
   
-  function add(number1, number2) {
-    return number1 + number2;
-  }
-  
-  saySomething("The sum is " + add(3,5) + ".");
-
-  function add(number1, number2) {
-    return number1 + number2;
-  }
+  jQuery("img").click(function() {
+    alert("This is an image.");
+  });
